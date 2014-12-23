@@ -1,0 +1,61 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #269C8A;
+	font-family: "Gotham Rounded A","Gotham Rounded B",Helvetica,sans-serif;
+	color: #F8F8F8;
+}
+
+.container {
+	width: 980px;
+	margin: 0 auto;
+}
+
+.container .logo {
+	height: 100px;
+}
+
+.container .nav>.items {
+	float: right;
+	margin-top: 40px;
+}
+.container .nav>.items>a {
+	padding: 20px;
+	font-size: 18px;
+}
+
+.container a {
+	color: #F8F8F8;
+	text-decoration: none;
+}
+
+.container .main {
+	position: absolute;
+	height: 80%;
+	width: 980px;
+	display: none;
+}
+
+.container .main>.items {
+	position: absolute;
+	bottom: 30px;
+}
+
+.container .main>.items>h1 {
+	font-size: 60px;
+	border-bottom: 2px solid #F8F8F8;
+	padding-bottom: 15px;
+	margin-bottom: 60px;
+}
+
+/* BTN-MAIN */
+.container .main>.items>.btn-main {
+	padding: 20px 35px;
+	margin: 15px;
+	border: 2px solid #F8F8F8;
+	border-radius: 30px;
+	font-size: 20px;
+}
